@@ -1,0 +1,19 @@
+---
+draft: true
+title: 초기 설정
+author: beanbeantree
+date: '2021-01-20'
+slug: initial-settings
+categories:
+  - blogdown
+tags:
+  - Configuration
+keywords:
+  - tech
+---
+
+`config.toml` 기본값 변경
+
+
+`baseurl` 변경
+https://github.com/rstudio/blogdown/issues/369
