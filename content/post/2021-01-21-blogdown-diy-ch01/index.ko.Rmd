@@ -1,0 +1,65 @@
+---
+title: '{blogdown} 따라하기: Chapter 1 Get Started'
+author: "beanbeantree"
+date: '2021-01-21'
+slug: blogdown-diy-ch01
+categories:
+- R
+- blogdown
+tags:
+- blogdown
+- tranquilpeak
+keywords: tech
+---
+
+웹북 [`blogdown: Creating Websites with R Markdown`](https://bookdown.org/yihui/blogdown/)의 첫번째 장을 따라합니다.  
+
+<!--more-->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# 설치(Installation)
+
+`blogdown`패키지를 설치하고 `HUGO`를 설치합니다.  
+그리고 설치된 `HUGO`의 버전을 확인합니다.
+
+```{r install, eval=FALSE}
+install.packages("blogdown", dependencies = TRUE)
+blogdown::install_hugo()
+blogdown::hugo_version()
+```
+
+# R project 만들기
+[이곳](https://mrchypark.github.io/post/github-rstudio%EB%A1%9C-github-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/)을 참고하여 `Github`의 원격 저장소(Remote Repository)와 연결된 R Project를 만듭니다.
+
+# 블로그 만들기
+```{r new-site, eval=FALSE}
+blogdown::new_site(theme = "kakawait/hugo-tranquilpeak-theme",
+                   format = "toml")
+```
+
+`blogdown:new_site()`와의 차이점은 아래와 같습니다.
+
+1. theme  
+   + default: `theme = "yihui/hugo-lithium"`  
+   + 변경 후: `kakawait/hugo-tranquilpeak-theme`  
+   + 해당 테마에 관한 정보는 [이곳](https://themes.gohugo.io/hugo-tranquilpeak-theme/)에서 확인할 수 있습니다.    
+2. format  
+   + default: `format = "yaml"`  
+   + 변경 후: `format = "toml"`  
+   + 우리가 선택한 테마의 구성(configuration)파일의 형식은 [TOML](https://github.com/toml-lang/toml)입니다.  
+   예제사이트와 구성파일의 형식을 일치시키기 위해 기본값을 변경했습니다.
+
+# Git Bash를 이용하여 Github에 push
+```{bash push, eval=FALSE}
+# Git Bash에서 실행
+git add .
+git commit -m "new-site"
+git push origin main
+```
+R studio에서 제공하는 Git GUI를 이용하여 Git을 동작하면 R studio가 멈추는 현상이 나타납니다  
+(기본 테마의 경우 이런 문제가 발생하지 않으나 테마를 변경하여 사이트를 생성하면 이와 같은 문제가 나타나는 것으로 보입니다).  
+그 대신 Git 설치 시 따라오는 Git Bash를 이용하여 'stage -> commit -> push'를 수행합니다.  
+R studio의 기본 터미널을 Git Bash로 변경하여 사용하시면 디텍토리를 변경할 필요가 없어 편리합니다.

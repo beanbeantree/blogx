@@ -1,0 +1,68 @@
+---
+title: '{blogdown} 따라하기: Chapter 1 Get Started'
+author: "beanbeantree"
+date: '2021-01-21'
+slug: blogdown-diy-ch01
+categories:
+- R
+- blogdown
+tags:
+- blogdown
+- tranquilpeak
+keywords: tech
+---
+
+<script src="{{< blogdown/postref >}}index.ko_files/header-attrs/header-attrs.js"></script>
+
+
+<p>웹북 <a href="https://bookdown.org/yihui/blogdown/"><code>blogdown: Creating Websites with R Markdown</code></a>의 첫번째 장을 따라합니다.</p>
+<!--more-->
+<div id="설치installation" class="section level1">
+<h1>설치(Installation)</h1>
+<p><code>blogdown</code>패키지를 설치하고 <code>HUGO</code>를 설치합니다.<br />
+그리고 설치된 <code>HUGO</code>의 버전을 확인합니다.</p>
+<pre class="r"><code>install.packages(&quot;blogdown&quot;, dependencies = TRUE)
+blogdown::install_hugo()
+blogdown::hugo_version()</code></pre>
+</div>
+<div id="r-project-만들기" class="section level1">
+<h1>R project 만들기</h1>
+<p><a href="https://mrchypark.github.io/post/github-rstudio%EB%A1%9C-github-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/">이곳</a>을 참고하여 <code>Github</code>의 원격 저장소(Remote Repository)와 연결된 R Project를 만듭니다.</p>
+</div>
+<div id="블로그-만들기" class="section level1">
+<h1>블로그 만들기</h1>
+<pre class="r"><code>blogdown::new_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;,
+                   format = &quot;toml&quot;)</code></pre>
+<p><code>blogdown:new_site()</code>와의 차이점은 아래와 같습니다.</p>
+<ol style="list-style-type: decimal">
+<li>theme
+<ul>
+<li>default: <code>theme = "yihui/hugo-lithium"</code><br />
+</li>
+<li>변경 후: <code>kakawait/hugo-tranquilpeak-theme</code><br />
+</li>
+<li>해당 테마에 관한 정보는 <a href="https://themes.gohugo.io/hugo-tranquilpeak-theme/">이곳</a>에서 확인할 수 있습니다.<br />
+</li>
+</ul></li>
+<li>format
+<ul>
+<li>default: <code>format = "yaml"</code><br />
+</li>
+<li>변경 후: <code>format = "toml"</code><br />
+</li>
+<li>우리가 선택한 테마의 구성(configuration)파일의 형식은 <a href="https://github.com/toml-lang/toml">TOML</a>입니다.<br />
+예제사이트와 구성파일의 형식을 일치시키기 위해 기본값을 변경했습니다.</li>
+</ul></li>
+</ol>
+</div>
+<div id="git-bash를-이용하여-github에-push" class="section level1">
+<h1>Git Bash를 이용하여 Github에 push</h1>
+<pre class="bash"><code># Git Bash에서 실행
+git add .
+git commit -m &quot;new-site&quot;
+git push origin main</code></pre>
+<p>R studio에서 제공하는 Git GUI를 이용하여 Git을 동작하면 R studio가 멈추는 현상이 나타납니다<br />
+(기본 테마의 경우 이런 문제가 발생하지 않으나 테마를 변경하여 사이트를 생성하면 이와 같은 문제가 나타나는 것으로 보입니다).<br />
+그 대신 Git 설치 시 따라오는 Git Bash를 이용하여 ’stage -&gt; commit -&gt; push’를 수행합니다.<br />
+R studio의 기본 터미널을 Git Bash로 변경하여 사용하시면 디텍토리를 변경할 필요가 없어 편리합니다.</p>
+</div>
