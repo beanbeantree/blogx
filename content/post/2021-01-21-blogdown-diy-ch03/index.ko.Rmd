@@ -17,5 +17,16 @@ keywords:
 
 <!--more-->
 
-# Netify
+# public 폴더 삭제
+`Netlify`에서 빌드(build)하기 때문에 `publc`폴더는 필요가 없다. 
+Git Bash를 이용하여 아래와 같이 원격저장소와 로컬저장소 모두에서 `public`폴더를 삭제해 준다.
+
+```{bash}
+git rm -rf public
+git commit -m "remove-public"
+git push origin main
+```
+
+# Netlify
+
 
