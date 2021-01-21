@@ -1,0 +1,16 @@
+---
+draft: true
+title: calculus
+author: beanbeantree
+date: '2021-01-21'
+slug: calculus
+categories:
+  - 수학
+  - 미적분학
+tags:
+  - 미분
+keywords:
+  - tech
+---
+
+<!--more-->

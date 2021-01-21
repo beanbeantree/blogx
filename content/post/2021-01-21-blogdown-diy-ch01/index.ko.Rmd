@@ -2,7 +2,7 @@
 title: '{blogdown} 따라하기: Chapter 1 Get Started'
 author: "beanbeantree"
 date: '2021-01-21'
-slug: blogdown-diy-ch01
+slug: blogdown-diy-start
 categories:
 - R
 - blogdown
@@ -20,7 +20,7 @@ keywords: tech
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# 설치(Installation)
+# 패키지 설치
 
 `blogdown`패키지를 설치하고 `HUGO`를 설치합니다.  
 그리고 설치된 `HUGO`의 버전을 확인합니다.
