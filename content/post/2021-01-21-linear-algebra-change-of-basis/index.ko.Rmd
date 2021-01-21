@@ -1,0 +1,20 @@
+---
+title: "[선형대수학] 기저변환"
+author: beanbeantree
+date: '2021-01-21'
+slug: linear-algebra-change-of-basis
+categories:
+  - 수학
+  - 선형대수학
+tags: []
+keywords:
+  - tech
+---
+
+기저변환
+<!--more-->
+
+# 좌표변환
+
+# 기저변환
+

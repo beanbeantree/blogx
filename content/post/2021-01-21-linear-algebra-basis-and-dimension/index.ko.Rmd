@@ -1,0 +1,16 @@
+---
+title: "[선형대수학] 기저와 차원"
+author: beanbeantree
+date: '2021-01-21'
+slug: linear-algebra-basis-and-dimension
+categories:
+  - 수학
+  - 선형대수학
+tags: []
+keywords:
+  - tech
+---
+
+기저와 차원
+<!--more-->
+

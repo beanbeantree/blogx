@@ -1,0 +1,16 @@
+---
+title: "[선형대수학] 선형독립과 기저"
+author: beanbeantree
+date: '2021-01-21'
+slug: linear-algebra-linear-independence-and-basis
+categories:
+  - 수학
+  - 선형대수학
+tags: []
+keywords:
+  - tech
+---
+
+선형독립과 기저
+<!--more-->
+

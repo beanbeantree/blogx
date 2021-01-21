@@ -1,0 +1,21 @@
+---
+title: "[선형대수학] 벡터공간"
+author: beanbeantree
+date: '2021-01-21'
+slug: linear-algebra-vector-space
+categories:
+  - 수학
+  - 선형대수학
+tags: []
+keywords:
+  - tech
+---
+
+물리적 의미의 벡터로부터 그 연산을 정의하고 이를 수학적 벡터로 추상화합니다.
+<!--more-->
+
+# 물리적 벡터와 그 연산
+
+
+# 수학적 벡터와 벡터공간
+

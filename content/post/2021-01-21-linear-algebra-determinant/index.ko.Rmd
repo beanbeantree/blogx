@@ -1,0 +1,33 @@
+---
+title: "[선형대수학] 행렬식"
+author: beanbeantree
+date: '2021-01-21'
+slug: linear-algebra-determinant
+categories:
+  - 수학
+  - 선형대수학
+tags: []
+keywords:
+  - tech
+---
+
+행렬식
+<!--more-->
+
+# 행렬식의 의의
+
+# Multi Linear Form
+$Ml: {\rm I\!R}^n \times \cdots \times {\rm I\!R}^n \to {\rm I\!R}$  
+$Ml(X_1+X'_1, \ \cdots, \ X_n) = Ml(X_1, \ \cdots, \ X_n)+Ml(X'_1, \ \cdots, \ X_n)$  
+$Ml(cX_1, \ \cdots, \ X_n) = cMl(X_1, \ \cdots, \ X_n)$
+
+
+# Alternating Form(Alternating Multilinear Form)
+$Al(X_2, \ X_1, \cdots, \ X_n) = -Al(X_2, \ X_1, \cdots, \ X_n)$  
+$\Leftrightarrow$ 행렬 A의 두 열이 같으면 $Al(A)=0$  
+행렬 A의의
+
+
+# 행렬식
+
+## $\varepsilon$

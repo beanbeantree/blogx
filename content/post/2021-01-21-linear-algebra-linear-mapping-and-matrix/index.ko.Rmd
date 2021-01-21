@@ -1,0 +1,16 @@
+---
+title: "[선형대수학] 선형사상과 행렬"
+author: beanbeantree
+date: '2021-01-21'
+slug: linear-algebra-linear-mapping-and-matrix
+categories:
+  - 수학
+  - 선형대수학
+tags: []
+keywords:
+  - tech
+---
+
+선형사상과 행렬
+<!--more-->
+

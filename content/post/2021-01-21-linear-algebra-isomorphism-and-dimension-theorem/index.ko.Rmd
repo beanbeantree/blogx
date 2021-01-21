@@ -1,0 +1,16 @@
+---
+title: "[선형대수학] 동형사상과 차원정리"
+author: beanbeantree
+date: '2021-01-21'
+slug: linear-algebra-isomorphism-and-dimension-theorem
+categories:
+  - 수학
+  - 선형대수학
+tags: []
+keywords:
+  - tech
+---
+
+동형사상과 차원정리
+<!--more-->
+

@@ -1,0 +1,16 @@
+---
+title: "[선형대수학] 역행렬을 갖는 행렬"
+author: beanbeantree
+date: '2021-01-21'
+slug: linear-algebra-invertible-matrix
+categories:
+  - 수학
+  - 선형대수학
+tags: []
+keywords:
+  - tech
+---
+
+역행렬을 갖는 행렬
+<!--more-->
+

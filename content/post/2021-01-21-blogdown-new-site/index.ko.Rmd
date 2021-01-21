@@ -19,11 +19,9 @@ keywords:
 <!--more-->
 
 # R project 만들기
-
 [이곳](https://mrchypark.github.io/post/github-rstudio%EB%A1%9C-github-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/)을 참고하여 `Github`의 원격 저장소(Remote Repository)와 연결된 R Project를 만듭니다.
 
 # 패키지 설치
-
 ```{r install, eval=FALSE}
 install.packages("blogdown", dependencies = TRUE)
 blogdown::install_hugo()
