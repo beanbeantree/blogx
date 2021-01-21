@@ -19,8 +19,12 @@ keywords:
 
 # Configuration
 `config.toml`파일 중 필수적으로 수정해야 할 사항은 `baseURL`입니다.  
-아래와 같이 수정해 줍니다.  
+아래 예시와 같이 수정해 줍니다.  
 
 * default: `baseURL = "https://example.org/"`  
-* 변경 후: `baseURL = "/"`
+* 변경 후: `baseURL = "https://beanbeantree.netlify.app/"`
+
+나머지 사항은 선택적이며 각 항목들의 기능은 아래와 같습니다.  
+
+* disqusShortname
 
