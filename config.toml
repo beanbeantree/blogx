@@ -37,7 +37,7 @@ hasCJKLanguage = true
 [author]
   name = "beanbeantree"
   bio = ""
-  job = "CPA"
+  job = ""
   location = "S.Korea"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "beanbeantree@kakao.com"
