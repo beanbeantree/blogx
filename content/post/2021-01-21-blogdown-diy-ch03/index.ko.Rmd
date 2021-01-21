@@ -1,0 +1,21 @@
+---
+title: '{blogdown} 따라하기: Chapter 3 Deployment'
+author: beanbeantree
+date: '2021-01-21'
+slug: blogdown-diy-ch03
+categories:
+  - R
+  - blogdown
+tags:
+  - blogdown
+  - tranquilpeak
+keywords:
+  - tech
+---
+
+웹북 [`blogdown: Creating Websites with R Markdown`](https://bookdown.org/yihui/blogdown/)의 세번째 장을 따라합니다.  
+
+<!--more-->
+
+# Netify
+
