@@ -1,13 +1,13 @@
 ---
-draft: true
-title: 초기 설정
+title: \[blogdown\] 블로그 생성 및 구성
 author: beanbeantree
 date: '2021-01-20'
 slug: initial-settings
 categories:
+  - R
   - blogdown
 tags:
-  - Configuration
+  - 
 keywords:
   - tech
 ---
@@ -15,6 +15,28 @@ keywords:
 <script src="{{< blogdown/postref >}}index.ko_files/header-attrs/header-attrs.js"></script>
 
 
+<!--toc-->
+<div id="github-repository-및-r-project-생성" class="section level1">
+<h1>Github repository 및 R project 생성</h1>
+</div>
+<div id="blogdown-패키지-설치-및-블로그-생성" class="section level1">
+<h1>blogdown 패키지 설치 및 블로그 생성</h1>
+<pre><code>install.packages(&quot;blogdown&quot;, dependencies = TRUE)
+blogdown::new_site(theme = &quot;kakawait/hugo-tranquilpeak-theme&quot;, 
+                   format = &quot;toml&quot;)</code></pre>
+<p><code>format = "toml"</code>로 한 이유는 <code>tranquilpeak</code> 테마의 예제 사이트의 confinguration 파일의 확장자가 <code>.toml</code>로 되어 있어 일치시키기 위함.</p>
+</div>
+<div id="configuraion" class="section level1">
+<h1>Configuraion</h1>
 <p><code>config.toml</code> 기본값 변경</p>
 <p><code>baseurl</code> 변경
 <a href="https://github.com/rstudio/blogdown/issues/369" class="uri">https://github.com/rstudio/blogdown/issues/369</a></p>
+</div>
+<div id="원격-저장소에-push" class="section level1">
+<h1>원격 저장소에 push</h1>
+<p><code>confing.toml</code>의 기본설정을 마쳤으면 <code>Github</code>에 새롭게 생성된 사항 및 변경된 사항은 push한다.<br />
+R studio에서 제공하는 Git GUI를 이용하면 Git이 제대로 동작하지 않는 문제가 있으니 Git을 설치할 때 따라 설치되는 Git Bash를 이용한다.</p>
+<pre><code>git add .
+git commit -m &quot;new site&quot;
+git push origin main</code></pre>
+</div>

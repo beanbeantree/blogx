@@ -91,7 +91,7 @@
   translation: "이전"
 
 - id: "pagination.next"
-  translation: "다음"
+  translation: "최근"
 
 ## POST ##
 - id: "post.no_title"
@@ -104,10 +104,10 @@
   translation: "TAGGED IN"
 
 - id: "post.toc"
-  translation: "Table of Contents"
+  translation: "목차"
 
 - id: "post.read_more"
-  translation: "Continue reading"
+  translation: "더보기"
 
 - id: "post.go_to_website"
   translation: "Go to website"

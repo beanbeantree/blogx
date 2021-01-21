@@ -1,19 +1,45 @@
 ---
-draft: true
-title: 초기 설정
+title: \[blogdown\] 블로그 생성 및 구성
 author: beanbeantree
 date: '2021-01-20'
 slug: initial-settings
 categories:
+  - R
   - blogdown
 tags:
-  - Configuration
+  - 
 keywords:
   - tech
 ---
+
+<!--toc-->
+
+# Github repository 및 R project 생성
+
+# blogdown 패키지 설치 및 블로그 생성
+```
+install.packages("blogdown", dependencies = TRUE)
+blogdown::new_site(theme = "kakawait/hugo-tranquilpeak-theme", 
+                   format = "toml")
+```
+`format = "toml"`로 한 이유는 `tranquilpeak` 테마의 예제 사이트의 confinguration 파일의 확장자가 `.toml`로 되어 있어 일치시키기 위함.
+
+# Configuraion
+
+
 
 `config.toml` 기본값 변경
 
 
 `baseurl` 변경
 https://github.com/rstudio/blogdown/issues/369
+
+# 원격 저장소에 push
+`confing.toml`의 기본설정을 마쳤으면 `Github`에 새롭게 생성된 사항 및 변경된 사항은 push한다.  
+R studio에서 제공하는 Git GUI를 이용하면 Git이 제대로 동작하지 않는 문제가 있으니 Git을 설치할 때 따라 설치되는 Git Bash를 이용한다.  
+
+```
+git add .
+git commit -m "new site"
+git push origin main
+```

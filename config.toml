@@ -13,7 +13,7 @@
 # use grunt task `build` to synchronize assets
 
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "ko"
 defaultContentLanguage = "ko"
 title = "beanbeantree's blog"
 theme = "hugo-tranquilpeak-theme"
@@ -35,12 +35,12 @@ hasCJKLanguage = true
   archive = "archives"
 
 [author]
-  name = "Firstname Lastname"
-  bio = "Super bio with markdown support **COOL**"
-  job = "Your job title"
-  location = "France"
+  name = "beanbeantree"
+  bio = ""
+  job = "CPA"
+  location = "S.Korea"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "thibaud.lepretre@gmail.com"
+  gravatarEmail = "beanbeantree@kakao.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
   picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
@@ -86,7 +86,7 @@ hasCJKLanguage = true
   identifier = "github"
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-  url = "https://github.com/kakawait"
+  url = "https://github.com/beanbeantree"
 [[menu.links]]
   weight = 2
   identifier = "youtube"
@@ -122,7 +122,7 @@ hasCJKLanguage = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "Hugo tranquilpeak theme demo"
+  description = "beanbeantree's blog"
 
   # Customization
   # Define the behavior of the sidebar
@@ -155,7 +155,7 @@ hasCJKLanguage = true
   # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
   # Set this value to `right` if you have old posts to keep the old style on them
   # and define `thumbnailImagePosition` on a post to overwrite this setting
-  thumbnailImagePosition = "bottom"
+  thumbnailImagePosition = "right"
   # Automatically select the cover image or the first photo from the gallery of a post if there is no thumbnail image as the thumbnail image
   # Set this value to `true` if you have old posts that use the cover image or the first photo as the thumbnail image
   # and set `autoThumbnailImage` to `false` on a post to overwrite this setting
