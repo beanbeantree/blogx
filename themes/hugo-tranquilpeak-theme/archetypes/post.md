@@ -10,6 +10,9 @@ tags:
 keywords:
 - tech
 #thumbnailImage: //example.com/image.jpg
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
 

@@ -9,10 +9,11 @@ categories:
 tags: []
 keywords:
   - tech
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
-행렬식
-<!--more-->
 
 # 행렬식의 의의
 
