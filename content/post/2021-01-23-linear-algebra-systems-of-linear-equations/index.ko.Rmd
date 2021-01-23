@@ -9,8 +9,10 @@ categories:
 tags: []
 keywords:
   - tech
+output:
+  blogdown::html_page:
+    toc: yes
+description: '연립방정식'
 ---
 
-연립방정식
-<!--more-->
 
