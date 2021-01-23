@@ -8,12 +8,15 @@ categories:
   - 선형대수학
 tags: []
 keywords:
-  - tech
+  - linear algebra
+  - vector space
+  - 선형대수학
+  - 벡터공간
+output:
+  blogdown::html_page:
+    toc: true
+description: 물리적 의미의 벡터로부터 그 연산을 정의하고 이를 수학적 벡터로 추상화합니다.
 ---
-
-물리적 의미의 벡터로부터 그 연산을 정의하고 이를 수학적 벡터로 추상화합니다.
-<!--more-->
-
 # 물리적 벡터와 그 연산
 
 
