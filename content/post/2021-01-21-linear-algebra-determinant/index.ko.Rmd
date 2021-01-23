@@ -9,11 +9,11 @@ categories:
 tags: []
 keywords:
   - tech
+output:
+  blogdown::html_page:
+    toc: true
+description: 행렬식 
 ---
-
-행렬식
-<!--more-->
-
 # 행렬식의 의의
 $A$가 $n \times n$ 행렬일 때 가역? or 비가역?
 

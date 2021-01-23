@@ -9,11 +9,11 @@ categories:
 tags: []
 keywords:
   - tech
+output:
+  blogdown::html_page:
+    toc: true
+description: 기저변환
 ---
-
-기저변환
-<!--more-->
-
 # 좌표변환
 
 # 기저변환

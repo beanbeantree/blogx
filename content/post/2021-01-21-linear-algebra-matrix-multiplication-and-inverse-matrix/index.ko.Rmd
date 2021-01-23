@@ -9,8 +9,8 @@ categories:
 tags: []
 keywords:
   - tech
+output:
+  blogdown::html_page:
+    toc: true
+description: 행렬의 곱셈과 역행렬
 ---
-
-행렬의 곱셈과 역행렬
-<!--more-->
-

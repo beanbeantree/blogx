@@ -11,6 +11,10 @@ tags:
   - tranquilpeak
 keywords:
   - tech
+output:
+  blogdown::html_page:
+    toc: true
+description: blogdown을 사용하여 웹 사이트를 생성하고, Netlify를 이용하여 배포하는 방법에 대한 포스트입니다. 사용된 테마는 Tranquilpeak입니다.
 ---
 
 `blogdown`을 사용하여 웹 사이트를 생성하고,  

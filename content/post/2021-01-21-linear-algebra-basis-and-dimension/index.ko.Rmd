@@ -9,8 +9,9 @@ categories:
 tags: []
 keywords:
   - tech
+output:
+  blogdown::html_page:
+    toc: true
+description: 기저와 차원원
 ---
-
-기저와 차원
-<!--more-->
 

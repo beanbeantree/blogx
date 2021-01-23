@@ -9,8 +9,11 @@ categories:
 tags: []
 keywords:
   - tech
+output:
+  blogdown::html_page:
+    toc: true
+description: 동형사상과 차원정리 
 ---
 
-동형사상과 차원정리
-<!--more-->
+
 

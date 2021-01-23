@@ -9,8 +9,9 @@ categories:
 tags: []
 keywords:
   - tech
+output:
+  blogdown::html_page:
+    toc: true
+description: 선형사상과 행렬
 ---
-
-선형사상과 행렬
-<!--more-->
 

@@ -3,6 +3,7 @@ title: "[선형대수학] 대각화(Diagonaliztion)"
 author: beanbeantree
 date: '2021-01-23'
 slug: linear-algebra-diagonalization
+description: 대각화에 대해 설명
 categories:
   - 수학
   - 선형대수학
@@ -11,11 +12,8 @@ keywords:
   - tech
 output:
   blogdown::html_page:
-    toc: true  
+    toc: true
 ---
-행렬식
-<!--more-->
-
 행렬의 유사관계를 이용해 작은 행렬들로 분해(decompose)하는 것, 즉 블럭화(block diagonalization)를 소개하고, 블럭화의 특별한 경우인 대각화(diagonalization)를 소개합니다.  
 대각화를 하는 데에 필수적인 특성다항식(characteristic polynomial)을 배우고, 대각화가 실용적인 관점에서 어떤 유용성이 있는지 세 가지 예를 들어 배웁니다.  
 행렬이 대각화가 되는 경우와 되지 않는 경우에 대해 자세히 알아보고, 그 과정에서 나타나는 특성다항식에 대한  중요한 정리인 케일리 해밀턴 정리(Cayley-Hamilton Theorem)를 소개합니다.
@@ -33,8 +31,7 @@ $det \begin{pmatrix} \lambda - a_{11} & \cdots & -a_{1n} \\ \vdots & \ddots & \v
 $$\phi_A(t) = det(tI - A)$$  
 
 ## 고유벡터를 충분히 구할 수 없을 때
-왜안되지지
-$det(\lambda_i I - A)X_i = 0$을 만족하는 $X_i$벡터를 
+$det(\lambda_i I - A)X_i = 0$을 만족하는 $X_i$벡터를  
 $\phi_A(t) = (t - \lambda_1)(t - \lambda_2)\cdots(t - \lambda_n)$
 
 
