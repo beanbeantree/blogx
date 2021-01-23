@@ -8,8 +8,9 @@ categories:
   - blogdown
 tags: []
 keywords:
-  - tech
-thumbnailImage: blogdown.png
+  - R
+  - blogdown
+  - tranquilpeak
 output:
   blogdown::html_page:
     toc: yes
