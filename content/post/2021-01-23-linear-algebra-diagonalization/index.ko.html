@@ -1,0 +1,55 @@
+---
+title: "[선형대수학] 대각화(Diagonaliztion)"
+author: beanbeantree
+date: '2021-01-23'
+slug: linear-algebra-diagonalization
+categories:
+  - 수학
+  - 선형대수학
+tags: []
+keywords:
+  - tech
+output:
+  blogdown::html_page:
+    toc: true  
+---
+
+<script src="{{< blogdown/postref >}}index.ko_files/header-attrs/header-attrs.js"></script>
+
+<p>행렬식
+<!--more--></p>
+<div id="TOC">
+<ul>
+<li><a href="#대각화-과정">대각화 과정</a></li>
+<li><a href="#대각화가-안되는-경우">대각화가 안되는 경우</a>
+<ul>
+<li><a href="#고유값을-구할-수-없을-때">고유값을 구할 수 없을 때</a></li>
+<li><a href="#고유벡터를-충분히-구할-수-없을-때">고유벡터를 충분히 구할 수 없을 때</a></li>
+</ul></li>
+</ul>
+</div>
+<p>행렬의 유사관계를 이용해 작은 행렬들로 분해(decompose)하는 것, 즉 블럭화(block diagonalization)를 소개하고, 블럭화의 특별한 경우인 대각화(diagonalization)를 소개합니다.<br />
+대각화를 하는 데에 필수적인 특성다항식(characteristic polynomial)을 배우고, 대각화가 실용적인 관점에서 어떤 유용성이 있는지 세 가지 예를 들어 배웁니다.<br />
+행렬이 대각화가 되는 경우와 되지 않는 경우에 대해 자세히 알아보고, 그 과정에서 나타나는 특성다항식에 대한 중요한 정리인 케일리 해밀턴 정리(Cayley-Hamilton Theorem)를 소개합니다.</p>
+<div id="대각화-과정" class="section level1">
+<h1>대각화 과정</h1>
+<p><span class="math inline">\(A\)</span>가 <span class="math inline">\(n \times n\)</span> 행렬일 때<br />
+<span class="math inline">\(\lambda_i X_i = AX_i\)</span><br />
+<span class="math inline">\(\lambda I \ - A = 0\)</span><br />
+<span class="math inline">\(det(\lambda I - A) = 0\)</span><br />
+<span class="math inline">\(det \begin{pmatrix} \lambda - a_{11} &amp; \cdots &amp; -a_{1n} \\ \vdots &amp; \ddots &amp; \vdots \\ -a_{n1} &amp; \cdots &amp; \lambda-a_{nn} \end{pmatrix} = 0\)</span></p>
+</div>
+<div id="대각화가-안되는-경우" class="section level1">
+<h1>대각화가 안되는 경우</h1>
+<div id="고유값을-구할-수-없을-때" class="section level2">
+<h2>고유값을 구할 수 없을 때</h2>
+<p>특성다항식(chracteristic polynomial)<br />
+<span class="math display">\[\phi_A(t) = det(tI - A)\]</span></p>
+</div>
+<div id="고유벡터를-충분히-구할-수-없을-때" class="section level2">
+<h2>고유벡터를 충분히 구할 수 없을 때</h2>
+<p>왜안되지지
+<span class="math inline">\(det(\lambda_i I - A)X_i = 0\)</span>을 만족하는 <span class="math inline">\(X_i\)</span>벡터를
+<span class="math inline">\(\phi_A(t) = (t - \lambda_1)(t - \lambda_2)\cdots(t - \lambda_n)\)</span></p>
+</div>
+</div>

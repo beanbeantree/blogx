@@ -9,15 +9,15 @@ categories:
 tags: []
 keywords:
   - tech
-output:
-  blogdown::html_page:
-    toc: true
 ---
 
+행렬식
+<!--more-->
 
 # 행렬식의 의의
+$A$가 $n \times n$ 행렬일 때 가역? or 비가역?
 
-# Multi Linear Form
+# Multilinear Form
 $Ml: {\rm I\!R}^n \times \cdots \times {\rm I\!R}^n \to {\rm I\!R}$  
 $Ml(X_1+X'_1, \ \cdots, \ X_n) = Ml(X_1, \ \cdots, \ X_n)+Ml(X'_1, \ \cdots, \ X_n)$  
 $Ml(cX_1, \ \cdots, \ X_n) = cMl(X_1, \ \cdots, \ X_n)$
@@ -31,4 +31,4 @@ $\Leftrightarrow$ 행렬 A의 두 열이 같으면 $Al(A)=0$
 
 # 행렬식
 
-## $\varepsilon$
+## $\varepsilon_{i_1, \ i_2, \ \cdots, \ i_n}$

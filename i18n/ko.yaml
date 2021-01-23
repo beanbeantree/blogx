@@ -82,10 +82,10 @@
   translation: "of {{ .Paginator.TotalPages }}"
 
 - id: "pagination.newer_posts"
-  translation: "NEWER POSTS"
+  translation: "최근 포스트"
 
 - id: "pagination.older_posts"
-  translation: "OLDER POSTS"
+  translation: "이전 포스트"
 
 - id: "pagination.previous"
   translation: "이전"
